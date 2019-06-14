@@ -1,0 +1,440 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.50;
+    color: #666666;}
+.header{
+    width: 100%;
+    height: 140px;
+}
+.top-header{
+    background-color: #f1f1f1;
+    height: 40px;
+    width: 100%;
+    flex-wrap: nowrap;
+    display: flex;
+    border: 0.1px solid #acacac;
+    /* position: fixed; */
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+.a1,.a2,.a3,.a4,.a5,.a6{
+    border-right: 0.1px solid #acacac;
+    font-size: 20px;
+    width: 37px;
+    margin-top: 1px;
+    height: 38px;
+}
+.fa {
+    padding-left: 9px;
+    padding-top: 9px;
+    width: 30px;
+    height: 30px;
+}
+#navbar {
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+  }
+
+
+#fa-lienhe{
+    border-radius: 50%;
+    border: 1px solid grey;
+}
+.fa-lienhe1 :hover{
+    background: blue ;
+    color: white;
+}
+.fa-lienhe2 :hover{
+    background: #00BFFF ;
+    color: white;
+}
+.fa-lienhe3 :hover{
+    background: #DF3A01 ;
+    color: white;
+}
+.fa-lienhe4 :hover{
+    background: #0080FF ;
+    color: white;
+}
+.fa-lienhe5 :hover{
+    background: #08298A ;
+    color: white;
+}
+.a1 :hover{
+    background: white ;
+    color: #0080FF;
+}
+.a2 :hover{
+    background: white ;
+    color: #0080FF;
+}
+.a3 :hover{
+    background: white ;
+    color: blue;
+}
+.a4 :hover{
+    background: white ;
+    color: #DF3A01;
+}
+.a5 :hover{
+    background: white ;
+    color: #DF3A01;
+}
+.a6 :hover{
+    background: white ;
+    color: blue;
+}
+.a7 :hover{
+    background: white ;
+    color: #DF3A01;
+}
+
+.flex-container1 {
+    width: 50%;
+    display: flex;
+    margin-left: 150px;
+    justify-content: flex-start;
+  }
+  
+  
+  .flex-container2 {
+    width: 40%;
+    display: flex;
+    margin-right: 140px;
+    justify-content: flex-end;
+  }
+  
+  .flex-container2 > div {
+    margin: 1px;
+    padding: 10px;
+    font-size: 30px;
+    height: 40px;
+  }
+
+
+.header1 {
+    width: 1424px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid #999999;
+    position: fixed;
+}
+
+.logo {
+    padding-top: 10px;
+    width: 500px;
+    height: 100px;
+    float: left;
+    
+}
+
+.menu {
+    width: 900px;
+    height: 100px;
+    float: right;
+}
+
+  .menu ul li {
+    float: left;
+    margin-top: 27px;
+    list-style-type: none;
+}
+
+.li1,
+.li2,
+.li3,
+.li4 {
+    float: left;
+    padding-left: 80px;
+    margin-top: 50px;
+}
+.li1,
+.li2,
+.li3,
+.li4:hover {
+    color: bold;
+}
+
+.map {
+    background-color: grey;
+    width: 1424px;
+    height: 400px;
+    clear: both;
+}
+.container{
+    width: 1424px;
+    height: 700px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.left {
+    width: 750px;
+    height: 550px;
+    background-color: white;
+    float: left;
+}
+.right{
+    height: 230px;
+    float: right;
+    width: 650px;
+    margin-top: 50px;
+    border-left: 1px solid #eeeeee;
+}
+.right2 {
+    width: 500px;
+    height: 270px;
+
+}
+
+.right1 {
+    width: 500px;
+    height: 230px;
+    background-color: white;
+    margin-top: 50px;
+    padding-left: 50px;
+    
+
+}
+
+.open {
+    height: 100px;
+}
+
+.form {
+    height: 400px;
+}
+
+.input {
+    height: 30px;
+    border: 2px solid #acacac;
+    color: #666666;
+    width: 90%;
+    padding: 6px;
+    margin-top: 15px;
+    font-size: 12px;
+    /* khoảng cách giũa các ô form */
+    display: block;
+    font-size: 15px;
+    
+}
+.div :hover{
+    color: #DF3A01;
+    background-color: white;
+}
+
+.input1 {
+    height: 70px;
+    border: 2px solid #acacac;
+}
+a{
+    text-decoration: none;
+}
+label {
+    /* in đậm chữ */
+    font-weight: 700;
+    
+}
+
+.content {
+    margin-left: 30px;
+}
+
+.button-submit {
+    padding: 10px;
+    text-align: center;
+    background-color: #e84c3d;
+    border-radius:10%;
+    width: 100px;
+}
+.licontent {
+    list-style-type: none;
+    display: block;
+    margin-top: 10px;
+}
+.right1 ul li{
+    margin-left: 10px;
+}
+p{
+    font-family: 'Times New Roman';
+    font-size: 15px;
+}
+.top-footer{
+    background-color: #FBEFF2;
+    height: 150px;
+    width: 1424px;
+}
+.trong{
+    background-color: #FBEFF2;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+.image1{
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+.image2{
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+.image3{
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+.image4{
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+.letter{
+    width: 400px;
+    float: left;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    color: #999999;
+}
+.center-footer{
+    width: 1424px;
+    height: 350px;
+    background-color: #262626;
+    color: #999999;
+    padding-top: 35px;
+}
+.introduce{
+    width: 300px;
+    float: left;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+.link{
+    width: 300px;
+    float: left;
+    height: 350px;
+}
+.connect{
+    width: 300px;
+    float: left;
+    height: 350px;
+    margin-left: 40px;
+}
+.address{
+    width: 300px;
+    float: left;
+    height: 350px;
+}
+.logofooter{
+    margin-left: 30px;
+}
+.icon{
+    display: inline;
+    margin-left: 10px;
+    
+}
+.icon:hover{
+    opacity: 0.1;
+}
+.close1{
+    margin-left: 10px;
+}
+/* .close1 ::after{
+    content: "\f178";
+    font-family: "FontAwesome";
+    position: absolute;
+    right: 0;
+    top: 2px;
+} */
+.address1 {
+    width: 500px;
+    height: 230px;
+    margin-top: 50px;
+    padding-left: 50px;
+
+}
+.menu1 ul li:hover{
+    
+    color: white ;
+}
+.menu1 ul li::after{
+   content: ">";
+   float:right;
+   padding-right:5px;
+}
+
+
+  .menu1 ul li {
+    margin-top: 20px;
+    list-style-type: none;
+    
+}
+.trong1{
+    width: 100px;
+    height: 230px;
+}
+.trong2{
+    width: 100px;
+    height: 230px;
+}
+.end-footer{
+    width: 100%;
+    height: 60px;
+}
+
+.menu2 ul li {
+     list-style-type: none;
+     display: inline;
+     color: #999999;
+     
+ }
+ .mn1 :hover{
+     color: #DF3A01;
+ }
+ .mn2 :hover{
+    color: #DF3A01;
+}
+.mn3 :hover{
+    color: #DF3A01;
+}
+.mn4 :hover{
+    color: #DF3A01;
+}
+.mn5 :hover{
+    color: #DF3A01;
+}
+
+ .copyright {
+    float: left;
+    width: 60%;
+    height: 60px;
+    color: #999999;
+    background-color: black;
+    padding-top: 6px;
+ }
+.menu2{
+    width: 40%;
+    float: left;
+    height: 60px;
+    color: #999999;
+    background-color: black;
+    padding-top: 6px;
+}
+
+  
